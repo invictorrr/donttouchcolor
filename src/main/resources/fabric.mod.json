@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "donttouchcolor",
+	"version": "${version}",
+	"name": "DontTouchColor",
+	"description": "Touching active color kills you.",
+	"authors": [
+		"Usuario"
+	],
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.donttouchcolor.DontTouchColorMod"
+		],
+		"client": [
+			"com.donttouchcolor.client.DontTouchColorClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
